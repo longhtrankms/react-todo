@@ -12,13 +12,9 @@ class SideNavigation extends Component<any, any> {
             gap: '1rem'
           }}
         >
-          <Link to="/dashboard">
-            <p>Dashboard</p>
-          </Link>
+          <Link to="/dashboard">Dashboard</Link>
 
-          <Link to="/about">
-            <p>About</p>
-          </Link>
+          <Link to="/about">About</Link>
         </div>
       </Menu>
     );
