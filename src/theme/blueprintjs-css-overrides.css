@@ -1,0 +1,15 @@
+/* Blueprint js overrides */
+/* Use this to globally override the blueprint js global css.  */
+
+.bp3-html-table thead tr th {
+  padding: 12px 8px;
+}
+
+.bp3-html-table tbody tr td {
+  padding: 12px 8px;
+}
+
+.white-tooltip .bp3-tooltip .bp3-popover-content {
+  background: #ffffff;
+  color: #f5f8fa;
+}

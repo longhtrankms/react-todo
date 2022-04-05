@@ -1,0 +1,444 @@
+/* Custom styles for portal */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+pre {
+  font-family: 'Lato', sans-serif !important;
+  font-size: 15px !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* START Containers */
+/*<editor-fold desc="Containers">*/
+.item-container {
+  padding: 8px 8px;
+}
+
+.widget-container {
+  padding: 12px 16px;
+}
+
+.view-container {
+  padding: 16px 24px;
+}
+
+.section-container {
+  padding: 24px 24px;
+}
+
+.tab-pane-container {
+  padding: 16px 24px 16px 0;
+}
+
+.flat-container {
+  padding: 0;
+  margin: 0;
+}
+
+.pagination-container {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/*</editor-fold>*/
+/* END Containers */
+
+/* START Custom CSS Icons */
+/*<editor-fold desc="Custom CSS Icons">*/
+.container-left-arrow {
+  position: absolute;
+  left: -5px;
+  top: 15px;
+  width: 10px;
+  height: 10px;
+  /*background-color: rgb(245, 248, 250);*/
+  background-color: rgb(255, 255, 255);
+  border-left: 1px rgb(232, 232, 232) solid;
+  border-bottom: 1px rgb(232, 232, 232) solid;
+  transform: rotate(45deg);
+}
+
+.status-step-active {
+}
+
+.status-step-active:after {
+  content: '';
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 24px;
+  height: 63%;
+  transform-origin: right top 0px;
+  transform: rotate(-53deg) skew(-14deg);
+  z-index: 2;
+  background: white none repeat scroll 0% 0%;
+  border-right: 1px solid rgb(230, 230, 230);
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.status-step-inactive {
+}
+
+.status-step-inactive:after {
+  content: '';
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 24px;
+  height: 63%;
+  transform-origin: right top 0px;
+  transform: rotate(-53deg) skew(-14deg);
+  z-index: 2;
+  background: transparent none repeat scroll 0% 0%;
+  border-right: 1px solid rgb(230, 230, 230);
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+/*</editor-fold>*/
+/* START Custom CSS Icons */
+
+/* START Divider with different margins */
+/*<editor-fold desc="Dividers">*/
+.divider-none {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.divider-x2-small {
+  margin-top: 2px !important;
+  margin-bottom: 2px !important;
+}
+
+.divider-x-small {
+  margin-top: 4px !important;
+  margin-bottom: 4px !important;
+}
+
+.divider-small {
+  margin-top: 8px !important;
+  margin-bottom: 8px !important;
+}
+
+.divider-medium {
+  margin-top: 16px !important;
+  margin-bottom: 16px !important;
+}
+
+.divider-large {
+  margin-top: 24px !important;
+  margin-bottom: 24px !important;
+}
+
+/*</editor-fold>*/
+
+/* END Dividers */
+
+/* START Custom Avatar sizes */
+/* Ant Design large avatar is only 40px, so need something larger */
+.avatar-medium {
+  width: 48px !important;
+  height: 48px !important;
+}
+
+/* Icon adjustment*/
+.avatar-medium i {
+  padding-top: 8px;
+  font-size: 40px;
+}
+
+.avatar-large {
+  width: 60px !important;
+  height: 60px !important;
+}
+
+/* Icon adjustment*/
+.avatar-large i {
+  padding-top: 8px;
+  font-size: 40px;
+}
+
+.avatar-x-large {
+  width: 80px !important;
+  height: 80px !important;
+}
+
+.avatar-x-large i {
+  padding-top: 16px;
+  font-size: 48px;
+}
+
+.avatar-x2-large {
+  width: 100px !important;
+  height: 100px !important;
+}
+
+.avatar-x2-large i {
+  padding-top: 18px;
+  font-size: 56px;
+}
+
+.avatar-x3-large {
+  width: 120px !important;
+  height: 120px !important;
+}
+
+.avatar-x3-large i {
+  padding-top: 18px;
+  font-size: 56px;
+}
+
+/* END Custom Avatar sizes */
+
+/*region Table Utilities */
+
+/* Ellipsis for cell */
+.td-ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 0;
+}
+
+/*endregion*/
+
+/* React Big Calendar overrides */
+
+.rbc-event {
+  background-color: transparent !important;
+}
+
+/* What is this for */
+
+/* Draft editor wrappers */
+.draft-editor-wrapper {
+  background-color: white !important;
+  border: solid 1px rgb(204, 204, 204);
+}
+
+.draft-editor-wrapper-error {
+  background-color: white !important;
+  border: solid 1px #c23030;
+}
+
+.draft-editor-wrapper-fullscreen {
+  background-color: white !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+}
+
+.draft-editor {
+  padding: 0px 16px 16px 16px;
+  line-height: 1.6;
+  max-height: 200px !important;
+}
+
+.draft-editor-fullscreen {
+  padding: 0 16px 16px 16px;
+  line-height: 1.6;
+}
+
+.rdw-fullscreen-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.draft-editor-error-text {
+  color: #c23030;
+}
+
+/* Booking listings grid components */
+.bp3-overlay {
+  z-index: 1001 !important;
+}
+
+/* What's this for? */
+.ant-form-item-children-icon {
+  margin-right: 24px;
+}
+
+/*  */
+.step-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.step-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-left: 8px;
+  margin-right: 8px;
+  background-color: white;
+  border: 1px solid #cccccc;
+  color: #9d9d9d;
+}
+
+.step-item-active {
+  color: white;
+  background-color: #0083ff;
+  border-color: #0083ff;
+}
+
+.step-filler-active {
+  flex: 1;
+  height: 1px;
+  background-color: #0083ff;
+}
+
+.step-filler {
+  flex: 1;
+  height: 1px;
+  background-color: #cccccc;
+}
+
+.step-container .step-filler:first-child {
+  background-color: transparent;
+}
+
+.step-container .step-filler:last-child {
+  background-color: transparent;
+}
+
+/* Start Css by Sejal For customer Details */
+.customer-info li:first-child:after {
+  display: none;
+}
+
+.customer-info li:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 7px;
+  background: #9e9e9e;
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+}
+
+.customer-info li:first-child {
+  padding-left: 0;
+  padding-right: 5px;
+}
+
+.customer-info li {
+  position: relative;
+  padding-left: 18px;
+  padding-right: 8px;
+}
+
+.customer-tab .ant-tabs-bar {
+  margin: 0 !important;
+}
+
+.customer-tab .ant-tabs-content {
+  border: 1px solid #e8e8e8;
+  padding: 24px 32px;
+  margin: -1px 0 0 0;
+}
+
+.inner-tab .ant-tabs-content {
+  border: none !important;
+  padding: 0 !important;
+  margin: 0;
+}
+
+.customScrollDiv {
+  height: calc(100vh - 400px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.customScrollDiv2 {
+  height: calc(100vh - 500px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.customFormItem {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  list-style: none;
+  margin-bottom: 24px;
+  vertical-align: top;
+}
+
+.booking-listing-list-btn {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.booking-listing-calendar-btn {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+/*.session-bg-layer::before {*/
+/*  height: 100px;*/
+/*  width: 100%;*/
+/*  z-index: 0;*/
+/*  display: block;*/
+/*  position: absolute;*/
+/*  top: 0;*/
+/*  left: 0;*/
+/*  content: '';*/
+/*  background: #ffffff;*/
+/*  border-bottom: 1px #eeeeee solid;*/
+/*}*/
+
+/* End Css by Sejal For customer Details */
+#price-frequency-frorm .ant-form-item-control {
+  line-height: 100% !important;
+}
+
+.edit-icon {
+  border-radius: 9999px !important;
+  border: 1px solid #0083ff !important;
+  color: #0083ff !important;
+  margin-left: 8px !important;
+  font-size: 11px !important;
+  padding: 3px !important;
+  cursor: pointer !important;
+}
+
+.list-bullet ul {
+  list-style: none;
+}
+
+.list-bullet ul li::before {
+  content: '\2022'; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: black; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.list-bullet ul li::marker {
+  content: none;
+}

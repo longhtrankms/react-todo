@@ -1,0 +1,59 @@
+.gh-datepicker {
+  border: 1px solid #cccccc;
+  font-size: 18px;
+  padding: 6px 12px;
+  transition: all 0.3s;
+  width: 150px;
+  border-radius: 4px;
+}
+.gh-datepicker:focus {
+  border-color: #2e82b0;
+  box-shadow: 0 0 0 4px rgba(19, 124, 189, 0.2) !important;
+  outline: none !important;
+}
+.gh-datepicker-regular {
+  border: 1px solid #cccccc;
+  font-size: 16px;
+  padding: 6px 12px;
+  transition: all 0.3s;
+  width: 250px;
+  border-radius: 4px;
+  height: 32px;
+}
+.gh-datepicker-regular:focus {
+  border-color: #2e82b0;
+  box-shadow: 0 0 0 4px rgba(19, 124, 189, 0.2) !important;
+  outline: none !important;
+}
+.gh-datepicker-calendar {
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  transition: all 0.3s;
+  border-color: #d9d9d9;
+  padding: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+.gh-datepicker-calendar .react-datepicker__navigation {
+  top: 18px;
+}
+.gh-datepicker-calendar .react-datepicker__day,
+.gh-datepicker-calendar .react-datepicker__day-name {
+  margin: 5px;
+}
+.gh-datepicker-calendar .react-datepicker__current-month {
+  font-weight: 800;
+  font-size: 16px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+.gh-datepicker-calendar .react-datepicker__header {
+  background-color: white;
+}
+.gh-datepicker-calendar .react-datepicker__day-name {
+  font-weight: 600;
+}
+.gh-datepicker-calendar .react-datepicker__triangle::before {
+  border-top: none;
+  border-bottom-color: red;
+}
+/*# sourceMappingURL=react-datepicker-override.css.map */

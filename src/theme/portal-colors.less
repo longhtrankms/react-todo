@@ -1,0 +1,1119 @@
+//region Color variables (taken from Blueprint css)
+
+@navy-blue: #041D40;
+
+@black: #10161a;
+
+@bg-secondary: #EBEBEB;
+@bg-tertiary: #F5F5F5;
+@bg-quaternary: #FAFAFA;
+
+@text-secondary: #696969;
+@text-tertiary: #9D9D9D;
+
+@dark-gray1: #182026;
+@dark-gray2: #202b33;
+@dark-gray3: #293742;
+@dark-gray4: #30404d;
+@dark-gray5: #394b59;
+
+@standard-gray: #EEEEEE;
+
+@gray1: #5c7080;
+@gray2: #738694;
+@gray3: #8a9ba8;
+@gray4: #a7b6c2;
+@gray5: #bfccd6;
+
+@light-gray1: #ced9e0;
+@light-gray2: #d8e1e8;
+@light-gray3: #e1e8ed;
+@light-gray4: #ebf1f5;
+@light-gray5: #f5f8fa;
+
+@standard-gray: #eeeeee;
+
+@white: #ffffff;
+
+@blue1: #0e5a8a;
+@blue2: #106ba3;
+@blue3: #137cbd;
+@blue4: #2b95d6;
+@blue5: #48aff0;
+@blue6: #F2F9FD;
+//@blue6: lighten(@blue5, 30%);
+@blueAction: #0083FF;
+@blueAction2: #F6FAFE;
+
+@green1: #0a6640;
+@green2: #0d8050;
+@green3: #0f9960;
+@green4: #15b371;
+@green5: #3dcc91;
+@green6: #F5FCF9;
+//@green6: lighten(@green5, 36%);
+
+@greenStatus: #69AC00;
+
+@orange1: #a66321;
+@orange2: #bf7326;
+@orange3: #d9822b;
+@orange4: #f29d49;
+@orange5: #ffb366;
+@orange6: #FFFAE5;
+//@orange6: lighten(@orange5, 26%);
+
+@warningOrange1: #FFA800;
+@warningOrange2: #FFEECC;
+
+@red1: #a82a2a;
+@red2: #c23030;
+@red3: #db3737;
+@red4: #f55656;
+@red5: #ff7373;
+@red6: #FFF4F4;
+//@red6: lighten(@red5, 23%);
+
+@vermilion1: #9e2b0e;
+@vermilion2: #b83211;
+@vermilion3: #d13913;
+@vermilion4: #eb532d;
+@vermilion5: #ff6e4a;
+@vermilion6: lighten(@vermilion5, 29%);
+
+@rose1: #a82255;
+@rose2: #c22762;
+@rose3: #db2c6f;
+@rose4: #f5498b;
+@rose5: #ff66a1;
+@rose6: lighten(@rose3, 43%);
+
+@violet1: #5c255c;
+@violet2: #752f75;
+@violet3: #8f398f;
+@violet4: #a854a8;
+@violet5: #c274c2;
+@violet6: #FBF5FB;
+//@violet6: lighten(@violet5, 29%);
+
+@indigo1: #5642a6;
+@indigo2: #634dbf;
+@indigo3: #7157d9;
+@indigo4: #9179f2;
+@indigo5: #ad99ff;
+@indigo6: lighten(@indigo5, 17%);
+
+@cobalt1: #1f4b99;
+@cobalt2: #2458b3;
+@cobalt3: #2965cc;
+@cobalt4: #4580e6;
+@cobalt5: #669eff;
+@cobalt6: lighten(@cobalt5, 25%);
+
+@InfoBlue1: #0083FF;
+@InfoBlue2: #f2f9ff;
+
+@turquoise1: #008075;
+@turquoise2: #00998c;
+@turquoise3: #00b3a4;
+@turquoise4: #14ccbd;
+@turquoise5: #2ee6d6;
+@turquoise6: lighten(@turquoise5, 34%);
+
+@forest1: #1d7324;
+@forest2: #238c2c;
+@forest3: #29a634;
+@forest4: #43bf4d;
+@forest5: #62d96b;
+@forest6: lighten(@forest5, 32%);
+
+@lime1: #728c23;
+@lime2: #87a629;
+@lime3: #9bbf30;
+@lime4: #b6d94c;
+@lime5: #d1f26d;
+@lime6: lighten(@lime5, 22%);
+
+@gold1: #a67908;
+@gold2: #bf8c0a;
+@gold3: #d99e0b;
+@gold4: #f2b824;
+@gold5: #ffc940;
+@gold6: lighten(@gold5, 32%);
+
+@sepia1: #63411e;
+@sepia2: #7d5125;
+@sepia3: #96622d;
+@sepia4: #b07b46;
+@sepia5: #c99765;
+@sepia6: lighten(@sepia5, 34%);
+//endregion
+
+//region Background Colors
+.bg-red-darker { background-color: @red1 !important; }
+.bg-red-dark { background-color: @red2 !important; }
+.bg-red { background-color: @red3 !important; }
+.bg-red-light { background-color: @red4 !important; }
+.bg-red-lighter { background-color: @red5 !important; }
+.bg-red-lightest { background-color: @red6 !important; }
+
+.bg-green-darker { background-color: @green1 !important; }
+.bg-green-dark { background-color: @green2 !important; }
+.bg-green { background-color: @green3 !important; }
+.bg-green-light { background-color: @green4 !important; }
+.bg-green-lighter { background-color: @green5 !important; }
+.bg-green-lightest { background-color: @green6 !important; }
+
+.bg-forest-darker { background-color: @forest1 !important; }
+.bg-forest-dark { background-color: @forest2 !important; }
+.bg-forest { background-color: @forest3 !important; }
+.bg-forest-light { background-color: @forest4 !important; }
+.bg-forest-lighter { background-color: @forest5 !important; }
+.bg-forest-lightest { background-color: @forest6 !important; }
+
+.bg-blue-darker { background-color: @blue1 !important; }
+.bg-blue-dark { background-color: @blue2 !important; }
+.bg-blue { background-color: @blue3 !important; }
+.bg-blue-light { background-color: @blue4 !important; }
+.bg-blue-lighter { background-color: @blue5 !important; }
+.bg-blue-lightest { background-color: @blue6 !important; }
+.bg-blue-action { background-color: @blueAction !important; }
+.bg-blue-action-lightest { background-color: @blueAction2 !important; }
+
+.bg-dark-gray-darker { background-color: @dark-gray1 !important; }
+.bg-dark-gray-dark { background-color: @dark-gray2 !important; }
+.bg-dark-gray { background-color: @dark-gray3 !important; }
+.bg-dark-gray-light { background-color: @dark-gray4 !important; }
+.bg-dark-gray-lighter { background-color: @dark-gray5 !important; }
+
+.bg-gray-darker { background-color: @gray1 !important; }
+.bg-gray-dark { background-color: @gray2 !important; }
+.bg-gray { background-color: @gray3 !important; }
+.bg-gray-light { background-color: @gray4 !important; }
+.bg-gray-lighter { background-color: @gray5 !important; }
+
+.bg-light-gray-darker { background-color: @light-gray1 !important; }
+.bg-light-gray-dark { background-color: @light-gray2 !important; }
+.bg-light-gray { background-color: @light-gray3 !important; }
+.bg-light-gray-light { background-color: @light-gray4 !important; }
+.bg-light-gray-lighter { background-color: @light-gray5 !important; }
+
+.bg-orange-darker { background-color: @orange1 !important; }
+.bg-orange-dark { background-color: @orange2 !important; }
+.bg-orange { background-color: @orange3 !important; }
+.bg-orange-light { background-color: @orange4 !important; }
+.bg-orange-lighter { background-color: @orange5 !important; }
+.bg-orange-lightest { background-color: @orange6 !important; }
+
+.bg-warning-orange { background-color: @warningOrange2 !important; }
+
+.bg-gold-darker { background-color: @gold1 !important; }
+.bg-gold-dark { background-color: @gold2 !important; }
+.bg-gold { background-color: @gold3 !important; }
+.bg-gold-light { background-color: @gold4 !important; }
+.bg-gold-lighter { background-color: @gold5 !important; }
+.bg-gold-lightest { background-color: @gold6 !important; }
+
+.bg-lime-darker { background-color: @lime1 !important; }
+.bg-lime-dark { background-color: @lime2 !important; }
+.bg-lime { background-color: @lime3 !important; }
+.bg-lime-light { background-color: @lime4 !important; }
+.bg-lime-lighter { background-color: @lime5 !important; }
+.bg-lime-lightest { background-color: @lime6 !important; }
+
+.bg-turquoise-darker { background-color: @turquoise1 !important; }
+.bg-turquoise-dark { background-color: @turquoise2 !important; }
+.bg-turquoise { background-color: @turquoise3 !important; }
+.bg-turquoise-light { background-color: @turquoise4 !important; }
+.bg-turquoise-lighter { background-color: @turquoise5 !important; }
+.bg-turquoise-lightest { background-color: @turquoise6 !important; }
+
+.bg-cobalt-darker { background-color: @cobalt1 !important; }
+.bg-cobalt-dark { background-color: @cobalt2 !important; }
+.bg-cobalt { background-color: @cobalt3 !important; }
+.bg-cobalt-light { background-color: @cobalt4 !important; }
+.bg-cobalt-lighter { background-color: @cobalt5 !important; }
+.bg-cobalt-lightest { background-color: @cobalt6 !important; }
+
+.bg-info-blue { background-color: @InfoBlue2 !important; }
+
+.bg-sepia-darker { background-color: @sepia1 !important; }
+.bg-sepia-dark { background-color: @sepia2 !important; }
+.bg-sepia { background-color: @sepia3 !important; }
+.bg-sepia-light { background-color: @sepia4 !important; }
+.bg-sepia-lighter { background-color: @sepia5 !important; }
+.bg-sepia-lightest { background-color: @sepia6 !important; }
+
+.bg-rose-darker { background-color: @rose1 !important; }
+.bg-rose-dark { background-color: @rose2 !important; }
+.bg-rose { background-color: @rose3 !important; }
+.bg-rose-light { background-color: @rose4 !important; }
+.bg-rose-lighter { background-color: @rose5 !important; }
+.bg-rose-lightest { background-color: @rose6 !important; }
+
+.bg-indigo-darker { background-color: @indigo1 !important; }
+.bg-indigo-dark { background-color: @indigo2 !important; }
+.bg-indigo { background-color: @indigo3 !important; }
+.bg-indigo-light { background-color: @indigo4 !important; }
+.bg-indigo-lighter { background-color: @indigo5 !important; }
+.bg-indigo-lightest { background-color: @indigo6 !important; }
+
+.bg-violet-darker { background-color: @violet1 !important; }
+.bg-violet-dark { background-color: @violet2 !important; }
+.bg-violet { background-color: @violet3 !important; }
+.bg-violet-light { background-color: @violet4 !important; }
+.bg-violet-lighter { background-color: @violet5 !important; }
+.bg-violet-lightest { background-color: @violet6 !important; }
+
+.bg-vermilion-darker { background-color: @vermilion1 !important; }
+.bg-vermilion-dark { background-color: @vermilion2 !important; }
+.bg-vermilion { background-color: @vermilion3 !important; }
+.bg-vermilion-light { background-color: @vermilion4 !important; }
+.bg-vermilion-lighter { background-color: @vermilion5 !important; }
+.bg-vermilion-lightest { background-color: @vermilion6 !important; }
+
+.bg-white { background-color: @white !important; }
+.bg-black { background-color: @black !important; }
+
+.bg-secondary { background-color: @bg-secondary !important; }
+.bg-tertiary { background-color: @bg-tertiary !important; }
+.bg-quaternary { background-color: @bg-quaternary !important; }
+.bg-standard-gray { background-color: @standard-gray !important; }
+
+// bg by text color
+.bg-text-secondary { background-color: @text-secondary !important; }
+.bg-text-tertiary { background-color: @text-tertiary !important; }
+
+.bg-transparent { background-color: transparent !important; }
+
+//endregion Background Colors
+
+//region Text Colors
+//.text-color-secondary { color: #616061 !important; }
+//.text-color-secondary { color: rgba(16, 22, 26, 0.45) !important; }
+//.text-color-secondary { color: rgba(105,105,105,1) !important; }
+//.text-color-tertiary { color: rgba(105,105,105) !important; opacity: 0.65; }
+.text-color-secondary { color: @text-secondary !important; }
+.text-color-tertiary { color: @text-tertiary !important; }
+
+.text-color-red-darker { color: @red1 !important; }
+.text-color-red-dark { color: @red2 !important; }
+.text-color-red { color: @red3 !important; }
+.text-color-red-light { color: @red4 !important; }
+.text-color-red-lighter { color: @red5 !important; }
+.text-color-red-lightest { color: @red6 !important; }
+
+.text-color-green-darker { color: @green1 !important; }
+.text-color-green-dark { color: @green2 !important; }
+.text-color-green { color: @green3 !important; }
+.text-color-green-light { color: @green4 !important; }
+.text-color-green-lighter { color: @green5 !important; }
+.text-color-green-lightest { color: @green6 !important; }
+
+.text-color-lime-darker { color: @lime1 !important; }
+.text-color-lime-dark { color: @lime2 !important; }
+.text-color-lime { color: @lime3 !important; }
+.text-color-lime-light { color: @lime4 !important; }
+.text-color-lime-lighter { color: @lime5 !important; }
+.text-color-lime-lightest { color: @lime6 !important; }
+
+.text-color-forest-darker { color: @forest1 !important; }
+.text-color-forest-dark { color: @forest2 !important; }
+.text-color-forest { color: @forest3 !important; }
+.text-color-forest-light { color: @forest4 !important; }
+.text-color-forest-lighter { color: @forest5 !important; }
+.text-color-forest-lightest { color: @forest6 !important; }
+
+.text-color-green-status { color: @greenStatus !important; }
+
+.text-color-blue-darker { color: @blue1 !important; }
+.text-color-blue-dark { color: @blue2 !important; }
+.text-color-blue { color: @blue3 !important; }
+.text-color-blue-light { color: @blue4 !important; }
+.text-color-blue-lighter { color: @blue5 !important; }
+.text-color-blue-lightest { color: @blue6 !important; }
+.text-color-blue-action { color: @blueAction !important; }
+
+.text-color-dark-gray-darker { color: @dark-gray1 !important; }
+.text-color-dark-gray-dark { color: @dark-gray2 !important; }
+.text-color-dark-gray { color: @dark-gray3 !important; }
+.text-color-dark-gray-light { color: @dark-gray4 !important; }
+.text-color-dark-gray-lighter { color: @dark-gray5 !important; }
+
+.text-color-gray-darker { color: @gray1 !important; }
+.text-color-gray-dark { color: @gray2 !important; }
+.text-color-gray { color: @gray3 !important; }
+.text-color-gray-light { color: @gray4 !important; }
+.text-color-gray-lighter { color: @gray5 !important; }
+
+.text-color-light-gray-darker { color: @light-gray1 !important; }
+.text-color-light-gray-dark { color: @light-gray2 !important; }
+.text-color-light-gray { color: @light-gray3 !important; }
+.text-color-light-gray-light { color: @light-gray4 !important; }
+.text-color-light-gray-lighter { color: @light-gray5 !important; }
+
+.text-color-orange-darker { color: @orange1 !important; }
+.text-color-orange-dark { color: @orange2 !important; }
+.text-color-orange { color: @orange3 !important; }
+.text-color-orange-light { color: @orange4 !important; }
+.text-color-orange-lighter { color: @orange5 !important; }
+.text-color-orange-lightest { color: @orange6 !important; }
+
+.text-color-warning-orange { color: @warningOrange1 !important; }
+
+.text-color-gold-darker { color: @gold1 !important; }
+.text-color-gold-dark { color: @gold2 !important; }
+.text-color-gold { color: @gold3 !important; }
+.text-color-gold-light { color: @gold4 !important; }
+.text-color-gold-lighter { color: @gold5 !important; }
+.text-color-gold-lightest { color: @gold6 !important; }
+
+.text-color-cobalt-darker { color: @cobalt1 !important; }
+.text-color-cobalt-dark { color: @cobalt2 !important; }
+.text-color-cobalt { color: @cobalt3 !important; }
+.text-color-cobalt-light { color: @cobalt4 !important; }
+.text-color-cobalt-lighter { color: @cobalt5 !important; }
+.text-color-cobalt-lightest { color: @cobalt6 !important; }
+
+.text-color-info-blue { color: @InfoBlue1 !important; }
+
+.text-color-turquoise-darker { color: @turquoise1 !important; }
+.text-color-turquoise-dark { color: @turquoise2 !important; }
+.text-color-turquoise { color: @turquoise3 !important; }
+.text-color-turquoise-light { color: @turquoise4 !important; }
+.text-color-turquoise-lighter { color: @turquoise5 !important; }
+.text-color-turquoise-lightest { color: @turquoise6 !important; }
+
+.text-color-forest-darker { color: @forest1 !important; }
+.text-color-forest-dark { color: @forest2 !important; }
+.text-color-forest { color: @forest3 !important; }
+.text-color-forest-light { color: @forest4 !important; }
+.text-color-forest-lighter { color: @forest5 !important; }
+.text-color-forest-lightest { color: @forest6 !important; }
+
+.text-color-sepia-darker { color: @sepia1 !important; }
+.text-color-sepia-dark { color: @sepia2 !important; }
+.text-color-sepia { color: @sepia3 !important; }
+.text-color-sepia-light { color: @sepia4 !important; }
+.text-color-sepia-lighter { color: @sepia5 !important; }
+.text-color-sepia-lightest { color: @sepia6 !important; }
+
+.text-color-rose-darker { color: @rose1 !important; }
+.text-color-rose-dark { color: @rose2 !important; }
+.text-color-rose { color: @rose3 !important; }
+.text-color-rose-light { color: @rose4 !important; }
+.text-color-rose-lighter { color: @rose5 !important; }
+.text-color-rose-lightest { color: @rose6 !important; }
+
+.text-color-indigo-darker { color: @indigo1 !important; }
+.text-color-indigo-dark { color: @indigo2 !important; }
+.text-color-indigo { color: @indigo3 !important; }
+.text-color-indigo-light { color: @indigo4 !important; }
+.text-color-indigo-lighter { color: @indigo5 !important; }
+.text-color-indigo-lightest { color: @indigo6 !important; }
+
+.text-color-violet-darker { color: @violet1 !important; }
+.text-color-violet-dark { color: @violet2 !important; }
+.text-color-violet { color: @violet3 !important; }
+.text-color-violet-light { color: @violet4 !important; }
+.text-color-violet-lighter { color: @violet5 !important; }
+.text-color-violet-lightest { color: @violet6 !important; }
+
+.text-color-vermilion-darker { color: @vermilion1 !important; }
+.text-color-vermilion-dark { color: @vermilion2 !important; }
+.text-color-vermilion { color: @vermilion3 !important; }
+.text-color-vermilion-light { color: @vermilion4 !important; }
+.text-color-vermilion-lighter { color: @vermilion5 !important; }
+.text-color-vermilion-lightest { color: @vermilion6 !important; }
+
+.text-color-white { color: @white !important; }
+.text-color-black { color: @black !important; }
+
+//endregion Text Colors
+
+//region Border Color
+//.border-secondary { border-color: rgba(16, 22, 26, 0.45) !important; }
+.border-secondary { border-color: @bg-secondary !important; }
+.border-tertiary { border-color: @bg-tertiary !important; }
+.border-quaternary { border-color: @bg-quaternary !important; }
+.border-standard-gray { border-color: @standard-gray !important; }
+
+.border-red-darker { border-color: @red1 !important; }
+.border-red-dark { border-color: @red2 !important; }
+.border-red { border-color: @red3 !important; }
+.border-red-light { border-color: @red4 !important; }
+.border-red-lighter { border-color: @red5 !important; }
+.border-red-lightest { border-color: @red6 !important; }
+
+.border-green-darker { border-color: @green1 !important; }
+.border-green-dark { border-color: @green2 !important; }
+.border-green { border-color: @green3 !important; }
+.border-green-light { border-color: @green4 !important; }
+.border-green-lighter { border-color: @green5 !important; }
+.border-green-lightest { border-color: @green6 !important; }
+
+.border-forest-darker { border-color: @forest1 !important; }
+.border-forest-dark { border-color: @forest2 !important; }
+.border-forest { border-color: @forest3 !important; }
+.border-forest-light { border-color: @forest4 !important; }
+.border-forest-lighter { border-color: @forest5 !important; }
+.border-forest-lightest { border-color: @forest6 !important; }
+
+.border-blue-darker { border-color: @blue1 !important; }
+.border-blue-dark { border-color: @blue2 !important; }
+.border-blue { border-color: @blue3 !important; }
+.border-blue-light { border-color: @blue4 !important; }
+.border-blue-lighter { border-color: @blue5 !important; }
+.border-blue-lightest { border-color: @blue6 !important; }
+
+
+.border-blue-action { border-color: @blueAction !important; }
+
+.border-dark-gray-darker { border-color: @dark-gray1 !important; }
+.border-dark-gray-dark { border-color: @dark-gray2 !important; }
+.border-dark-gray { border-color: @dark-gray3 !important; }
+.border-dark-gray-light { border-color: @dark-gray4 !important; }
+.border-dark-gray-lighter { border-color: @dark-gray5 !important; }
+
+.border-gray-darker { border-color: @gray1 !important; }
+.border-gray-dark { border-color: @gray2 !important; }
+.border-gray { border-color: @gray3 !important; }
+.border-gray-light { border-color: @gray4 !important; }
+.border-gray-lighter { border-color: @gray5 !important; }
+
+.border-light-gray-darker { border-color: @light-gray1 !important; }
+.border-light-gray-dark { border-color: @light-gray2 !important; }
+.border-light-gray { border-color: @light-gray3 !important; }
+.border-light-gray-light { border-color: @light-gray4 !important; }
+.border-light-gray-lighter { border-color: @light-gray5 !important; }
+
+.border-orange-darker { border-color: @orange1 !important; }
+.border-orange-dark { border-color: @orange2 !important; }
+.border-orange { border-color: @orange3 !important; }
+.border-orange-light { border-color: @orange4 !important; }
+.border-orange-lighter { border-color: @orange5 !important; }
+.border-orange-lightest { border-color: @orange6 !important; }
+
+.border-warning-orange { border-color: @warningOrange1 !important; }
+
+.border-gold-darker { border-color: @gold1 !important; }
+.border-gold-dark { border-color: @gold2 !important; }
+.border-gold { border-color: @gold3 !important; }
+.border-gold-light { border-color: @gold4 !important; }
+.border-gold-lighter { border-color: @gold5 !important; }
+.border-gold-lightest { border-color: @gold6 !important; }
+
+.border-cobalt-darker { border-color: @cobalt1 !important; }
+.border-cobalt-dark { border-color: @cobalt2 !important; }
+.border-cobalt { border-color: @cobalt3 !important; }
+.border-cobalt-light { border-color: @cobalt4 !important; }
+.border-cobalt-lighter { border-color: @cobalt5 !important; }
+.border-cobalt-lightest { border-color: @cobalt6 !important; }
+
+.border-info-blue { border-color: @InfoBlue1 !important; }
+
+.border-turquoise-darker { border-color: @turquoise1 !important; }
+.border-turquoise-dark { border-color: @turquoise2 !important; }
+.border-turquoise { border-color: @turquoise3 !important; }
+.border-turquoise-light { border-color: @turquoise4 !important; }
+.border-turquoise-lighter { border-color: @turquoise5 !important; }
+.border-turquoise-lightest { border-color: @turquoise6 !important; }
+
+.border-forest-darker { border-color: @forest1 !important; }
+.border-forest-dark { border-color: @forest2 !important; }
+.border-forest { border-color: @forest3 !important; }
+.border-forest-light { border-color: @forest4 !important; }
+.border-forest-lighter { border-color: @forest5 !important; }
+.border-forest-lightest { border-color: @forest6 !important; }
+
+.border-sepia-darker { border-color: @sepia1 !important; }
+.border-sepia-dark { border-color: @sepia2 !important; }
+.border-sepia { border-color: @sepia3 !important; }
+.border-sepia-light { border-color: @sepia4 !important; }
+.border-sepia-lighter { border-color: @sepia5 !important; }
+.border-sepia-lightest { border-color: @sepia6 !important; }
+
+.border-rose-darker { border-color: @rose1 !important; }
+.border-rose-dark { border-color: @rose2 !important; }
+.border-rose { border-color: @rose3 !important; }
+.border-rose-light { border-color: @rose4 !important; }
+.border-rose-lighter { border-color: @rose5 !important; }
+.border-rose-lightest { border-color: @rose6 !important; }
+
+.border-indigo-darker { border-color: @indigo1 !important; }
+.border-indigo-dark { border-color: @indigo2 !important; }
+.border-indigo { border-color: @indigo3 !important; }
+.border-indigo-light { border-color: @indigo4 !important; }
+.border-indigo-lighter { border-color: @indigo5 !important; }
+.border-indigo-lightest { border-color: @indigo6 !important; }
+
+.border-lime-darker { border-color: @lime1 !important; }
+.border-lime-dark { border-color: @lime2 !important; }
+.border-lime { border-color: @lime3 !important; }
+.border-lime-light { border-color: @lime4 !important; }
+.border-lime-lighter { border-color: @lime5 !important; }
+.border-lime-lightest { border-color: @lime6 !important; }
+
+.border-violet-darker { border-color: @violet1 !important; }
+.border-violet-dark { border-color: @violet2 !important; }
+.border-violet { border-color: @violet3 !important; }
+.border-violet-light { border-color: @violet4 !important; }
+.border-violet-lighter { border-color: @violet5 !important; }
+.border-violet-lightest { border-color: @violet6 !important; }
+
+.border-vermilion-darker { border-color: @vermilion1 !important; }
+.border-vermilion-dark { border-color: @vermilion2 !important; }
+.border-vermilion { border-color: @vermilion3 !important; }
+.border-vermilion-light { border-color: @vermilion4 !important; }
+.border-vermilion-lighter { border-color: @vermilion5 !important; }
+.border-vermilion-lightest { border-color: @vermilion6 !important; }
+
+.border-white { border-color: @white !important; }
+.border-black { border-color: @black !important; }
+//endregion
+
+// Hover Properties
+//region Background Colors
+.hover-bg-red-darker:hover { background-color: @red1 !important; }
+.hover-bg-red-dark:hover { background-color: @red2 !important; }
+.hover-bg-red:hover { background-color: @red3 !important; }
+.hover-bg-red-light:hover { background-color: @red4 !important; }
+.hover-bg-red-lighter:hover { background-color: @red5 !important; }
+.hover-bg-red-lightest:hover { background-color: @red6 !important; }
+
+.hover-bg-green-darker:hover { background-color: @green1 !important; }
+.hover-bg-green-dark:hover { background-color: @green2 !important; }
+.hover-bg-green:hover { background-color: @green3 !important; }
+.hover-bg-green-light:hover { background-color: @green4 !important; }
+.hover-bg-green-lighter:hover { background-color: @green5 !important; }
+.hover-bg-green-lightest:hover { background-color: @green6 !important; }
+
+.hover-bg-forest-darker:hover { background-color: @forest1 !important; }
+.hover-bg-forest-dark:hover { background-color: @forest2 !important; }
+.hover-bg-forest:hover { background-color: @forest3 !important; }
+.hover-bg-forest-light:hover { background-color: @forest4 !important; }
+.hover-bg-forest-lighter:hover { background-color: @forest5 !important; }
+.hover-bg-forest-lightest:hover { background-color: @forest6 !important; }
+
+.hover-bg-blue-darker:hover { background-color: @blue1 !important; }
+.hover-bg-blue-dark:hover { background-color: @blue2 !important; }
+.hover-bg-blue:hover { background-color: @blue3 !important; }
+.hover-bg-blue-light:hover { background-color: @blue4 !important; }
+.hover-bg-blue-lighter:hover { background-color: @blue5 !important; }
+.hover-bg-blue-lightest:hover { background-color: @blue6 !important; }
+
+.hover-bg-dark-gray-darker { background-color: @dark-gray1 !important; }
+.hover-bg-dark-gray-dark { background-color: @dark-gray2 !important; }
+.hover-bg-dark-gray { background-color: @dark-gray3 !important; }
+.hover-bg-dark-gray-light { background-color: @dark-gray4 !important; }
+.hover-bg-dark-gray-lighter { background-color: @dark-gray5 !important; }
+
+.hover-bg-gray-darker:hover { background-color: @gray1 !important; }
+.hover-bg-gray-dark:hover { background-color: @gray2 !important; }
+.hover-bg-gray:hover { background-color: @gray3 !important; }
+.hover-bg-gray-light:hover { background-color: @gray4 !important; }
+.hover-bg-gray-lighter:hover { background-color: @gray5 !important; }
+
+.hover-bg-light-gray-darker:hover { background-color: @light-gray1 !important; }
+.hover-bg-light-gray-dark:hover { background-color: @light-gray2 !important; }
+.hover-bg-light-gray:hover { background-color: @light-gray3 !important; }
+.hover-bg-light-gray-light:hover { background-color: @light-gray4 !important; }
+.hover-bg-light-gray-lighter:hover { background-color: @light-gray5 !important; }
+
+.hover-bg-orange-darker:hover { background-color: @orange1 !important; }
+.hover-bg-orange-dark:hover { background-color: @orange2 !important; }
+.hover-bg-orange:hover { background-color: @orange3 !important; }
+.hover-bg-orange-light:hover { background-color: @orange4 !important; }
+.hover-bg-orange-lighter:hover { background-color: @orange5 !important; }
+.hover-bg-orange-lightest:hover { background-color: @orange6 !important; }
+
+.hover-bg-gold-darker:hover { background-color: @gold1 !important; }
+.hover-bg-gold-dark:hover { background-color: @gold2 !important; }
+.hover-bg-gold:hover { background-color: @gold3 !important; }
+.hover-bg-gold-light:hover { background-color: @gold4 !important; }
+.hover-bg-gold-lighter:hover { background-color: @gold5 !important; }
+.hover-bg-gold-lightest:hover { background-color: @gold6 !important; }
+
+.hover-bg-lime-darker:hover { background-color: @lime1 !important; }
+.hover-bg-lime-dark:hover { background-color: @lime2 !important; }
+.hover-bg-lime:hover { background-color: @lime3 !important; }
+.hover-bg-lime-light:hover { background-color: @lime4 !important; }
+.hover-bg-lime-lighter:hover { background-color: @lime5 !important; }
+.hover-bg-lime-lightest:hover { background-color: @lime6 !important; }
+
+.hover-bg-turquoise-darker:hover { background-color: @turquoise1 !important; }
+.hover-bg-turquoise-dark:hover { background-color: @turquoise2 !important; }
+.hover-bg-turquoise:hover { background-color: @turquoise3 !important; }
+.hover-bg-turquoise-light:hover { background-color: @turquoise4 !important; }
+.hover-bg-turquoise-lighter:hover { background-color: @turquoise5 !important; }
+.hover-bg-turquoise-lightest:hover { background-color: @turquoise6 !important; }
+
+.hover-bg-cobalt-darker:hover { background-color: @cobalt1 !important; }
+.hover-bg-cobalt-dark:hover { background-color: @cobalt2 !important; }
+.hover-bg-cobalt:hover { background-color: @cobalt3 !important; }
+.hover-bg-cobalt-light:hover { background-color: @cobalt4 !important; }
+.hover-bg-cobalt-lighter:hover { background-color: @cobalt5 !important; }
+.hover-bg-cobalt-lightest:hover { background-color: @cobalt6 !important; }
+
+.hover-bg-sepia-darker:hover { background-color: @sepia1 !important; }
+.hover-bg-sepia-dark:hover { background-color: @sepia2 !important; }
+.hover-bg-sepia:hover { background-color: @sepia3 !important; }
+.hover-bg-sepia-light:hover { background-color: @sepia4 !important; }
+.hover-bg-sepia-lighter:hover { background-color: @sepia5 !important; }
+.hover-bg-sepia-lightest:hover { background-color: @sepia6 !important; }
+
+.hover-bg-rose-darker:hover { background-color: @rose1 !important; }
+.hover-bg-rose-dark:hover { background-color: @rose2 !important; }
+.hover-bg-rose:hover { background-color: @rose3 !important; }
+.hover-bg-rose-light:hover { background-color: @rose4 !important; }
+.hover-bg-rose-lighter:hover { background-color: @rose5 !important; }
+.hover-bg-rose-lightest:hover { background-color: @rose6 !important; }
+
+.hover-bg-indigo-darker:hover { background-color: @indigo1 !important; }
+.hover-bg-indigo-dark:hover { background-color: @indigo2 !important; }
+.hover-bg-indigo:hover { background-color: @indigo3 !important; }
+.hover-bg-indigo-light:hover { background-color: @indigo4 !important; }
+.hover-bg-indigo-lighter:hover { background-color: @indigo5 !important; }
+.hover-bg-indigo-lightest:hover { background-color: @indigo6 !important; }
+
+.hover-bg-violet-darker:hover { background-color: @violet1 !important; }
+.hover-bg-violet-dark:hover { background-color: @violet2 !important; }
+.hover-bg-violet:hover { background-color: @violet3 !important; }
+.hover-bg-violet-light:hover { background-color: @violet4 !important; }
+.hover-bg-violet-lighter:hover { background-color: @violet5 !important; }
+.hover-bg-violet-lightest:hover { background-color: @violet6 !important; }
+
+.hover-bg-vermilion-darker:hover { background-color: @vermilion1 !important; }
+.hover-bg-vermilion-dark:hover { background-color: @vermilion2 !important; }
+.hover-bg-vermilion:hover { background-color: @vermilion3 !important; }
+.hover-bg-vermilion-light:hover { background-color: @vermilion4 !important; }
+.hover-bg-vermilion-lighter:hover { background-color: @vermilion5 !important; }
+.hover-bg-vermilion-lightest:hover { background-color: @vermilion6 !important; }
+
+.hover-bg-white:hover { background-color: @white !important; }
+.hover-bg-black:hover { background-color: @black !important; }
+
+.hover-bg-secondary:hover { background-color: @bg-secondary !important; }
+.hover-bg-tertiary:hover { background-color: @bg-tertiary !important; }
+.hover-bg-quaternary:hover { background-color: @bg-quaternary !important; }
+
+.hover-bg-transparent:hover { background-color: transparent; }
+
+//endregion Background Colors
+
+//region Text Colors
+//.text-color-secondary { color: #616061 !important; }
+//.text-color-secondary { color: rgba(16, 22, 26, 0.45) !important; }
+.hover-text-color-secondary:hover { color: rgba(105,105,105,1) !important; }
+.hover-text-color-tertiary:hover { color: rgba(105,105,105) !important; opacity: 0.7; }
+
+.hover-text-color-red-darker:hover { color: @red1 !important; }
+.hover-text-color-red-dark:hover { color: @red2 !important; }
+.hover-text-color-red:hover { color: @red3 !important; }
+.hover-text-color-red-light:hover { color: @red4 !important; }
+.hover-text-color-red-lighter:hover { color: @red5 !important; }
+.hover-text-color-red-lightest:hover { color: @red6 !important; }
+
+.hover-text-color-green-darker:hover { color: @green1 !important; }
+.hover-text-color-green-dark:hover { color: @green2 !important; }
+.hover-text-color-green:hover { color: @green3 !important; }
+.hover-text-color-green-light:hover { color: @green4 !important; }
+.hover-text-color-green-lighter:hover { color: @green5 !important; }
+.hover-text-color-green-lightest:hover { color: @green6 !important; }
+
+.hover-text-color-lime-darker:hover { color: @lime1 !important; }
+.hover-text-color-lime-dark:hover { color: @lime2 !important; }
+.hover-text-color-lime:hover { color: @lime3 !important; }
+.hover-text-color-lime-light:hover { color: @lime4 !important; }
+.hover-text-color-lime-lighter:hover { color: @lime5 !important; }
+.hover-text-color-lime-lightest:hover { color: @lime6 !important; }
+
+.hover-text-color-forest-darker:hover { color: @forest1 !important; }
+.hover-text-color-forest-dark:hover { color: @forest2 !important; }
+.hover-text-color-forest:hover { color: @forest3 !important; }
+.hover-text-color-forest-light:hover { color: @forest4 !important; }
+.hover-text-color-forest-lighter:hover { color: @forest5 !important; }
+.hover-text-color-forest-lightest:hover { color: @forest6 !important; }
+
+.hover-text-color-blue-darker:hover { color: @blue1 !important; }
+.hover-text-color-blue-dark:hover { color: @blue2 !important; }
+.hover-text-color-blue:hover { color: @blue3 !important; }
+.hover-text-color-blue-light:hover { color: @blue4 !important; }
+.hover-text-color-blue-lighter:hover { color: @blue5 !important; }
+.hover-text-color-blue-lightest:hover { color: @blue6 !important; }
+
+.hover-text-color-dark-gray-darker:hover { color: @dark-gray1 !important; }
+.hover-text-color-dark-gray-dark:hover { color: @dark-gray2 !important; }
+.hover-text-color-dark-gray:hover { color: @dark-gray3 !important; }
+.hover-text-color-dark-gray-light:hover { color: @dark-gray4 !important; }
+.hover-text-color-dark-gray-lighter:hover { color: @dark-gray5 !important; }
+
+.hover-text-color-gray-darker:hover { color: @gray1 !important; }
+.hover-text-color-gray-dark:hover { color: @gray2 !important; }
+.hover-text-color-gray:hover { color: @gray3 !important; }
+.hover-text-color-gray-light:hover { color: @gray4 !important; }
+.hover-text-color-gray-lighter:hover { color: @gray5 !important; }
+
+.hover-text-color-light-gray-darker:hover { color: @light-gray1 !important; }
+.hover-text-color-light-gray-dark:hover { color: @light-gray2 !important; }
+.hover-text-color-light-gray:hover { color: @light-gray3 !important; }
+.hover-text-color-light-gray-light:hover { color: @light-gray4 !important; }
+.hover-text-color-light-gray-lighter:hover { color: @light-gray5 !important; }
+
+.hover-text-color-orange-darker:hover { color: @orange1 !important; }
+.hover-text-color-orange-dark:hover { color: @orange2 !important; }
+.hover-text-color-orange:hover { color: @orange3 !important; }
+.hover-text-color-orange-light:hover { color: @orange4 !important; }
+.hover-text-color-orange-lighter:hover { color: @orange5 !important; }
+.hover-text-color-orange-lightest:hover { color: @orange6 !important; }
+
+.hover-text-color-gold-darker:hover { color: @gold1 !important; }
+.hover-text-color-gold-dark:hover { color: @gold2 !important; }
+.hover-text-color-gold:hover { color: @gold3 !important; }
+.hover-text-color-gold-light:hover { color: @gold4 !important; }
+.hover-text-color-gold-lighter:hover { color: @gold5 !important; }
+.hover-text-color-gold-lightest:hover { color: @gold6 !important; }
+
+.hover-text-color-cobalt-darker:hover { color: @cobalt1 !important; }
+.hover-text-color-cobalt-dark:hover { color: @cobalt2 !important; }
+.hover-text-color-cobalt:hover { color: @cobalt3 !important; }
+.hover-text-color-cobalt-light:hover { color: @cobalt4 !important; }
+.hover-text-color-cobalt-lighter:hover { color: @cobalt5 !important; }
+.hover-text-color-cobalt-lightest:hover { color: @cobalt6 !important; }
+
+.hover-text-color-turquoise-darker:hover { color: @turquoise1 !important; }
+.hover-text-color-turquoise-dark:hover { color: @turquoise2 !important; }
+.hover-text-color-turquoise:hover { color: @turquoise3 !important; }
+.hover-text-color-turquoise-light:hover { color: @turquoise4 !important; }
+.hover-text-color-turquoise-lighter:hover { color: @turquoise5 !important; }
+.hover-text-color-turquoise-lightest:hover { color: @turquoise6 !important; }
+
+.hover-text-color-forest-darker:hover { color: @forest1 !important; }
+.hover-text-color-forest-dark:hover { color: @forest2 !important; }
+.hover-text-color-forest:hover { color: @forest3 !important; }
+.hover-text-color-forest-light:hover { color: @forest4 !important; }
+.hover-text-color-forest-lighter:hover { color: @forest5 !important; }
+.hover-text-color-forest-lightest:hover { color: @forest6 !important; }
+
+.hover-text-color-sepia-darker:hover { color: @sepia1 !important; }
+.hover-text-color-sepia-dark:hover { color: @sepia2 !important; }
+.hover-text-color-sepia:hover { color: @sepia3 !important; }
+.hover-text-color-sepia-light:hover { color: @sepia4 !important; }
+.hover-text-color-sepia-lighter:hover { color: @sepia5 !important; }
+.hover-text-color-sepia-lightest:hover { color: @sepia6 !important; }
+
+.hover-text-color-rose-darker:hover { color: @rose1 !important; }
+.hover-text-color-rose-dark:hover { color: @rose2 !important; }
+.hover-text-color-rose:hover { color: @rose3 !important; }
+.hover-text-color-rose-light:hover { color: @rose4 !important; }
+.hover-text-color-rose-lighter:hover { color: @rose5 !important; }
+.hover-text-color-rose-lightest:hover { color: @rose6 !important; }
+
+.hover-text-color-indigo-darker:hover { color: @indigo1 !important; }
+.hover-text-color-indigo-dark:hover { color: @indigo2 !important; }
+.hover-text-color-indigo:hover { color: @indigo3 !important; }
+.hover-text-color-indigo-light:hover { color: @indigo4 !important; }
+.hover-text-color-indigo-lighter:hover { color: @indigo5 !important; }
+.hover-text-color-indigo-lightest:hover { color: @indigo6 !important; }
+
+.hover-text-color-violet-darker:hover { color: @violet1 !important; }
+.hover-text-color-violet-dark:hover { color: @violet2 !important; }
+.hover-text-color-violet:hover { color: @violet3 !important; }
+.hover-text-color-violet-light:hover { color: @violet4 !important; }
+.hover-text-color-violet-lighter:hover { color: @violet5 !important; }
+.hover-text-color-violet-lightest:hover { color: @violet6 !important; }
+
+.hover-text-color-vermilion-darker:hover { color: @vermilion1 !important; }
+.hover-text-color-vermilion-dark:hover { color: @vermilion2 !important; }
+.hover-text-color-vermilion:hover { color: @vermilion3 !important; }
+.hover-text-color-vermilion-light:hover { color: @vermilion4 !important; }
+.hover-text-color-vermilion-lighter:hover { color: @vermilion5 !important; }
+.hover-text-color-vermilion-lightest:hover { color: @vermilion6 !important; }
+
+.hover-text-color-white:hover { color: @white !important; }
+.hover-text-color-black:hover { color: @black !important; }
+
+//endregion Text Colors
+
+//region Border Color
+//.border-secondary { border-color: rgba(16, 22, 26, 0.45) !important; }
+.hover-border-secondary:hover { border-color: @bg-secondary !important; }
+.hover-border-tertiary:hover { border-color: @bg-tertiary !important; }
+
+.hover-border-red-darker:hover { border-color: @red1 !important; }
+.hover-border-red-dark:hover { border-color: @red2 !important; }
+.hover-border-red:hover { border-color: @red3 !important; }
+.hover-border-red-light:hover { border-color: @red4 !important; }
+.hover-border-red-lighter:hover { border-color: @red5 !important; }
+.hover-border-red-lightest:hover { border-color: @red6 !important; }
+
+.hover-border-green-darker:hover { border-color: @green1 !important; }
+.hover-border-green-dark:hover { border-color: @green2 !important; }
+.hover-border-green:hover { border-color: @green3 !important; }
+.hover-border-green-light:hover { border-color: @green4 !important; }
+.hover-border-green-lighter:hover { border-color: @green5 !important; }
+.hover-border-green-lightest:hover { border-color: @green6 !important; }
+
+.hover-border-forest-darker:hover { border-color: @forest1 !important; }
+.hover-border-forest-dark:hover { border-color: @forest2 !important; }
+.hover-border-forest:hover { border-color: @forest3 !important; }
+.hover-border-forest-light:hover { border-color: @forest4 !important; }
+.hover-border-forest-lighter:hover { border-color: @forest5 !important; }
+.hover-border-forest-lightest:hover { border-color: @forest6 !important; }
+
+.hover-border-blue-darker:hover { border-color: @blue1 !important; }
+.hover-border-blue-dark:hover { border-color: @blue2 !important; }
+.hover-border-blue:hover { border-color: @blue3 !important; }
+.hover-border-blue-light:hover { border-color: @blue4 !important; }
+.hover-border-blue-lighter:hover { border-color: @blue5 !important; }
+.hover-border-blue-lightest:hover { border-color: @blue6 !important; }
+
+.hover-border-dark-gray-darker { border-color: @dark-gray1 !important; }
+.hover-border-dark-gray-dark { border-color: @dark-gray2 !important; }
+.hover-border-dark-gray { border-color: @dark-gray3 !important; }
+.hover-border-dark-gray-light { border-color: @dark-gray4 !important; }
+.hover-border-dark-gray-lighter { border-color: @dark-gray5 !important; }
+
+.hover-border-gray-darker:hover { border-color: @gray1 !important; }
+.hover-border-gray-dark:hover { border-color: @gray2 !important; }
+.hover-border-gray:hover { border-color: @gray3 !important; }
+.hover-border-gray-light:hover { border-color: @gray4 !important; }
+.hover-border-gray-lighter:hover { border-color: @gray5 !important; }
+
+.hover-border-light-gray-darker:hover { border-color: @light-gray1 !important; }
+.hover-border-light-gray-dark:hover { border-color: @light-gray2 !important; }
+.hover-border-light-gray:hover { border-color: @light-gray3 !important; }
+.hover-border-light-gray-light:hover { border-color: @light-gray4 !important; }
+.hover-border-light-gray-lighter:hover { border-color: @light-gray5 !important; }
+
+.hover-border-orange-darker:hover { border-color: @orange1 !important; }
+.hover-border-orange-dark:hover { border-color: @orange2 !important; }
+.hover-border-orange:hover { border-color: @orange3 !important; }
+.hover-border-orange-light:hover { border-color: @orange4 !important; }
+.hover-border-orange-lighter:hover { border-color: @orange5 !important; }
+.hover-border-orange-lightest:hover { border-color: @orange6 !important; }
+
+.hover-border-gold-darker:hover { border-color: @gold1 !important; }
+.hover-border-gold-dark:hover { border-color: @gold2 !important; }
+.hover-border-gold:hover { border-color: @gold3 !important; }
+.hover-border-gold-light:hover { border-color: @gold4 !important; }
+.hover-border-gold-lighter:hover { border-color: @gold5 !important; }
+.hover-border-gold-lightest:hover { border-color: @gold6 !important; }
+
+.hover-border-cobalt-darker:hover { border-color: @cobalt1 !important; }
+.hover-border-cobalt-dark:hover { border-color: @cobalt2 !important; }
+.hover-border-cobalt:hover { border-color: @cobalt3 !important; }
+.hover-border-cobalt-light:hover { border-color: @cobalt4 !important; }
+.hover-border-cobalt-lighter:hover { border-color: @cobalt5 !important; }
+.hover-border-cobalt-lightest:hover { border-color: @cobalt6 !important; }
+
+.hover-border-turquoise-darker:hover { border-color: @turquoise1 !important; }
+.hover-border-turquoise-dark:hover { border-color: @turquoise2 !important; }
+.hover-border-turquoise:hover { border-color: @turquoise3 !important; }
+.hover-border-turquoise-light:hover { border-color: @turquoise4 !important; }
+.hover-border-turquoise-lighter:hover { border-color: @turquoise5 !important; }
+.hover-border-turquoise-lightest:hover { border-color: @turquoise6 !important; }
+
+.hover-border-forest-darker:hover { border-color: @forest1 !important; }
+.hover-border-forest-dark:hover { border-color: @forest2 !important; }
+.hover-border-forest:hover { border-color: @forest3 !important; }
+.hover-border-forest-light:hover { border-color: @forest4 !important; }
+.hover-border-forest-lighter:hover { border-color: @forest5 !important; }
+.hover-border-forest-lightest:hover { border-color: @forest6 !important; }
+
+.hover-border-sepia-darker:hover { border-color: @sepia1 !important; }
+.hover-border-sepia-dark:hover { border-color: @sepia2 !important; }
+.hover-border-sepia:hover { border-color: @sepia3 !important; }
+.hover-border-sepia-light:hover { border-color: @sepia4 !important; }
+.hover-border-sepia-lighter:hover { border-color: @sepia5 !important; }
+.hover-border-sepia-lightest:hover { border-color: @sepia6 !important; }
+
+.hover-border-rose-darker:hover { border-color: @rose1 !important; }
+.hover-border-rose-dark:hover { border-color: @rose2 !important; }
+.hover-border-rose:hover { border-color: @rose3 !important; }
+.hover-border-rose-light:hover { border-color: @rose4 !important; }
+.hover-border-rose-lighter:hover { border-color: @rose5 !important; }
+.hover-border-rose-lightest:hover { border-color: @rose6 !important; }
+
+.hover-border-indigo-darker:hover { border-color: @indigo1 !important; }
+.hover-border-indigo-dark:hover { border-color: @indigo2 !important; }
+.hover-border-indigo:hover { border-color: @indigo3 !important; }
+.hover-border-indigo-light:hover { border-color: @indigo4 !important; }
+.hover-border-indigo-lighter:hover { border-color: @indigo5 !important; }
+.hover-border-indigo-lightest:hover { border-color: @indigo6 !important; }
+
+.hover-border-lime-darker:hover { border-color: @lime1 !important; }
+.hover-border-lime-dark:hover { border-color: @lime2 !important; }
+.hover-border-lime:hover { border-color: @lime3 !important; }
+.hover-border-lime-light:hover { border-color: @lime4 !important; }
+.hover-border-lime-lighter:hover { border-color: @lime5 !important; }
+.hover-border-lime-lightest:hover { border-color: @lime6 !important; }
+
+.hover-border-violet-darker:hover { border-color: @violet1 !important; }
+.hover-border-violet-dark:hover { border-color: @violet2 !important; }
+.hover-border-violet:hover { border-color: @violet3 !important; }
+.hover-border-violet-light:hover { border-color: @violet4 !important; }
+.hover-border-violet-lighter:hover { border-color: @violet5 !important; }
+.hover-border-violet-lightest:hover { border-color: @violet6 !important; }
+
+.hover-border-vermilion-darker:hover { border-color: @vermilion1 !important; }
+.hover-border-vermilion-dark:hover { border-color: @vermilion2 !important; }
+.hover-border-vermilion:hover { border-color: @vermilion3 !important; }
+.hover-border-vermilion-light:hover { border-color: @vermilion4 !important; }
+.hover-border-vermilion-lighter:hover { border-color: @vermilion5 !important; }
+.hover-border-vermilion-lightest:hover { border-color: @vermilion6 !important; }
+
+.hover-border-white:hover { border-color: @white !important; }
+.hover-border-black:hover { border-color: @black !important; }
+
+//endregion
+
+.active-button:active { background-color: @bg-secondary !important; color: @black !important; }
+
+
+
+
+.bg-navy-blue { background-color: @navy-blue !important; }
+.hover-bg-navy-blue:hover { background-color: @navy-blue !important; }
+.text-color-navy-blue { color: @navy-blue !important; }
+
+
+
+
+
+
+
+
+//region Background Colors
+.focus-bg-red-darker:focus { background-color: @red1 !important; }
+.focus-bg-red-dark:focus { background-color: @red2 !important; }
+.focus-bg-red:focus { background-color: @red3 !important; }
+.focus-bg-red-light:focus { background-color: @red4 !important; }
+.focus-bg-red-lighter:focus { background-color: @red5 !important; }
+.focus-bg-red-lightest:focus { background-color: @red6 !important; }
+
+.focus-bg-green-dark:focus { background-color: @green2 !important; }
+.focus-bg-green-darker:focus { background-color: @green1 !important; }
+.focus-bg-green:focus { background-color: @green3 !important; }
+.focus-bg-green-light:focus { background-color: @green4 !important; }
+.focus-bg-green-lighter:focus { background-color: @green5 !important; }
+.focus-bg-green-lightest:focus { background-color: @green6 !important; }
+
+.focus-bg-forest-darker:focus { background-color: @forest1 !important; }
+.focus-bg-forest-dark:focus { background-color: @forest2 !important; }
+.focus-bg-forest:focus { background-color: @forest3 !important; }
+.focus-bg-forest-light:focus { background-color: @forest4 !important; }
+.focus-bg-forest-lighter:focus { background-color: @forest5 !important; }
+.focus-bg-forest-lightest:focus { background-color: @forest6 !important; }
+
+.focus-bg-blue-darker:focus { background-color: @blue1 !important; }
+.focus-bg-blue-dark:focus { background-color: @blue2 !important; }
+.focus-bg-blue:focus { background-color: @blue3 !important; }
+.focus-bg-blue-light:focus { background-color: @blue4 !important; }
+.focus-bg-blue-lighter:focus { background-color: @blue5 !important; }
+.focus-bg-blue-lightest:focus { background-color: @blue6 !important; }
+
+.focus-bg-dark-gray-darker:focus { background-color: @dark-gray1 !important; }
+.focus-bg-dark-gray-dark:focus { background-color: @dark-gray2 !important; }
+.focus-bg-dark-gray:focus { background-color: @dark-gray3 !important; }
+.focus-bg-dark-gray-light:focus { background-color: @dark-gray4 !important; }
+.focus-bg-dark-gray-lighter:focus { background-color: @dark-gray5 !important; }
+
+.focus-bg-gray-darker:focus { background-color: @gray1 !important; }
+.focus-bg-gray-dark:focus { background-color: @gray2 !important; }
+.focus-bg-gray:focus { background-color: @gray3 !important; }
+.focus-bg-gray-light:focus { background-color: @gray4 !important; }
+.focus-bg-gray-lighter:focus { background-color: @gray5 !important; }
+
+.focus-bg-light-gray-darker:focus { background-color: @light-gray1 !important; }
+.focus-bg-light-gray-dark:focus { background-color: @light-gray2 !important; }
+.focus-bg-light-gray:focus { background-color: @light-gray3 !important; }
+.focus-bg-light-gray-light:focus { background-color: @light-gray4 !important; }
+.focus-bg-light-gray-lighter:focus { background-color: @light-gray5 !important; }
+
+.focus-bg-orange-darker:focus { background-color: @orange1 !important; }
+.focus-bg-orange-dark:focus { background-color: @orange2 !important; }
+.focus-bg-orange:focus { background-color: @orange3 !important; }
+.focus-bg-orange-light:focus { background-color: @orange4 !important; }
+.focus-bg-orange-lighter:focus { background-color: @orange5 !important; }
+.focus-bg-orange-lightest:focus { background-color: @orange6 !important; }
+
+.focus-bg-gold-darker:focus { background-color: @gold1 !important; }
+.focus-bg-gold-dark:focus { background-color: @gold2 !important; }
+.focus-bg-gold:focus { background-color: @gold3 !important; }
+.focus-bg-gold-light:focus { background-color: @gold4 !important; }
+.focus-bg-gold-lighter:focus { background-color: @gold5 !important; }
+.focus-bg-gold-lightest:focus { background-color: @gold6 !important; }
+
+.focus-bg-lime-darker:focus { background-color: @lime1 !important; }
+.focus-bg-lime-dark:focus { background-color: @lime2 !important; }
+.focus-bg-lime:focus { background-color: @lime3 !important; }
+.focus-bg-lime-light:focus { background-color: @lime4 !important; }
+.focus-bg-lime-lighter:focus { background-color: @lime5 !important; }
+.focus-bg-lime-lightest:focus { background-color: @lime6 !important; }
+
+.focus-bg-turquoise-darker:focus { background-color: @turquoise1 !important; }
+.focus-bg-turquoise-dark:focus { background-color: @turquoise2 !important; }
+.focus-bg-turquoise:focus { background-color: @turquoise3 !important; }
+.focus-bg-turquoise-light:focus { background-color: @turquoise4 !important; }
+.focus-bg-turquoise-lighter:focus { background-color: @turquoise5 !important; }
+.focus-bg-turquoise-lightest:focus { background-color: @turquoise6 !important; }
+
+.focus-bg-cobalt-darker:focus { background-color: @cobalt1 !important; }
+.focus-bg-cobalt-dark:focus { background-color: @cobalt2 !important; }
+.focus-bg-cobalt:focus { background-color: @cobalt3 !important; }
+.focus-bg-cobalt-light:focus { background-color: @cobalt4 !important; }
+.focus-bg-cobalt-lighter:focus { background-color: @cobalt5 !important; }
+.focus-bg-cobalt-lightest:focus { background-color: @cobalt6 !important; }
+
+.focus-bg-sepia-darker:focus { background-color: @sepia1 !important; }
+.focus-bg-sepia-dark:focus { background-color: @sepia2 !important; }
+.focus-bg-sepia:focus { background-color: @sepia3 !important; }
+.focus-bg-sepia-light:focus { background-color: @sepia4 !important; }
+.focus-bg-sepia-lighter:focus { background-color: @sepia5 !important; }
+.focus-bg-sepia-lightest:focus { background-color: @sepia6 !important; }
+
+.focus-bg-rose-darker:focus { background-color: @rose1 !important; }
+.focus-bg-rose-dark:focus { background-color: @rose2 !important; }
+.focus-bg-rose:focus { background-color: @rose3 !important; }
+.focus-bg-rose-light:focus { background-color: @rose4 !important; }
+.focus-bg-rose-lighter:focus { background-color: @rose5 !important; }
+.focus-bg-rose-lightest:focus { background-color: @rose6 !important; }
+
+.focus-bg-indigo-darker:focus { background-color: @indigo1 !important; }
+.focus-bg-indigo-dark:focus { background-color: @indigo2 !important; }
+.focus-bg-indigo:focus { background-color: @indigo3 !important; }
+.focus-bg-indigo-light:focus { background-color: @indigo4 !important; }
+.focus-bg-indigo-lighter:focus { background-color: @indigo5 !important; }
+.focus-bg-indigo-lightest:focus { background-color: @indigo6 !important; }
+
+.focus-bg-violet-darker:focus { background-color: @violet1 !important; }
+.focus-bg-violet-dark:focus { background-color: @violet2 !important; }
+.focus-bg-violet:focus { background-color: @violet3 !important; }
+.focus-bg-violet-light:focus { background-color: @violet4 !important; }
+.focus-bg-violet-lighter:focus { background-color: @violet5 !important; }
+.focus-bg-violet-lightest:focus { background-color: @violet6 !important; }
+
+.focus-bg-vermilion-darker:focus { background-color: @vermilion1 !important; }
+.focus-bg-vermilion-dark:focus { background-color: @vermilion2 !important; }
+.focus-bg-vermilion:focus { background-color: @vermilion3 !important; }
+.focus-bg-vermilion-light:focus { background-color: @vermilion4 !important; }
+.focus-bg-vermilion-lighter:focus { background-color: @vermilion5 !important; }
+.focus-bg-vermilion-lightest:focus { background-color: @vermilion6 !important; }
+
+.focus-bg-white:focus { background-color: @white !important; }
+.focus-bg-black:focus { background-color: @black !important; }
+
+.focus-bg-secondary:focus { background-color: @bg-secondary !important; }
+.focus-bg-tertiary:focus { background-color: @bg-tertiary !important; }
+
+.focus-bg-transparent:focus { background-color: transparent !important; }
+
+//endregion Background Colors
+
+//region Table Colors
+
+.evenodd:nth-child(even) {background: @bg-quaternary !important; }
+.evenodd:nth-child(odd) {background: @white !important;}
+
+//endregion
