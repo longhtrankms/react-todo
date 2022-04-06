@@ -1,7 +1,7 @@
 import { Button } from 'antd';
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { dispatch, IRootDispatch, IRootState, state } from 'store/root-store';
+import { dispatch, IRootDispatch, IRootState, state } from 'store/rematch/root-store';
 
 interface IAboutViewProps {
   count: typeof state.counterStore.count;

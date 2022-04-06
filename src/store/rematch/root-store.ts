@@ -1,6 +1,6 @@
 import { init, RematchRootState } from '@rematch/core';
-import counterStore from './rematch/models/counter.store';
-import taskStore from './rematch/models/task-store';
+import counterStore from './models/counter-store';
+import taskStore from './models/task-store';
 
 const models = {
   counterStore,

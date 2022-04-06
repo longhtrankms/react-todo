@@ -1,6 +1,6 @@
 import { PureComponent } from "react";
 import { Provider } from "react-redux";
-import rootStore from "store/root-store";
+import rootStore from "store/rematch/root-store";
 
 class Gate extends PureComponent<any,any>{
     render(){
