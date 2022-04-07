@@ -12,6 +12,7 @@ interface ICounterTaskViewProps {
   setTasks: typeof dispatch.taskStore.setTasks;
   doFetchAllTasks: typeof dispatch.taskStore.doFetchAllTasks;
   doAddTask: typeof dispatch.taskStore.doAddTask;
+  doDeleteTask: typeof dispatch.taskStore.doDeleteTask;
 }
 
 interface ICounterTaskState {
@@ -30,12 +31,20 @@ class CounterTaskView extends Component<ICounterTaskViewProps, ICounterTaskState
   };
 
   private _openAddTaskModal = async () => {
-    await this.props.doAddTask({ title: 'test', time: 'idk' });
+    // tobedelete
+    const dummyTitle = ['eat', 'breakfast', 'bath', 'sleep', 'gym', 'yoga'];
+    const randomTitle = dummyTitle[Math.floor(Math.random() * dummyTitle.length)];
+
+    await this.props.doAddTask({ title: randomTitle, time: '--' });
     // this.setState({ isAddTaskModalVisible: true });
   };
 
   private _closeAddTaskModal = () => {
     this.setState({ isAddTaskModalVisible: false });
+  };
+
+  private _deleteTask = (taskId) => {
+    this.props.doDeleteTask(taskId);
   };
 
   componentDidMount = async () => {
@@ -54,7 +63,7 @@ class CounterTaskView extends Component<ICounterTaskViewProps, ICounterTaskState
 
           <Button onClick={this._openAddTaskModal}>Add+</Button>
 
-          <TaskListing tasks={tasks} />
+          <TaskListing tasks={tasks} deleteTask={this._deleteTask}/>
 
           {/* <h1>Counter: {count}</h1>
         <Button type="primary" onClick={() => updateCount(1)}>
@@ -84,7 +93,8 @@ const mapDispatch = (dispatch: IRootDispatch) => ({
   updateCount: dispatch.counterStore.updateCount,
   setTasks: dispatch.taskStore.setTasks,
   doFetchAllTasks: dispatch.taskStore.doFetchAllTasks,
-  doAddTask: dispatch.taskStore.doAddTask
+  doAddTask: dispatch.taskStore.doAddTask,
+  doDeleteTask: dispatch.taskStore.doDeleteTask
 });
 
 export default connect(mapState, mapDispatch)(CounterTaskView);
