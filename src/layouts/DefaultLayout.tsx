@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import SideNavigation from '../common-components/SideNavigation';
+import SideNavigation from '../common-components/TopNavigation';
 
 interface IDefaultLayoutProps {
   children?: any;

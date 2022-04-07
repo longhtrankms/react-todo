@@ -1,4 +1,4 @@
-// CSS overrides for portal.
+// CSS
 import './theme/ant-css-overrides.css';
 import './theme/portal-common-styles.css';
 import './theme/portal-utility-styles.css';
